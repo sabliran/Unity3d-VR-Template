@@ -30,7 +30,7 @@ public class LocomotionController : MonoBehaviour
     }
 
     public bool CheckIfActivated(XRController controller)
-    { 
+    {
         InputHelpers.IsPressed(controller.inputDevice, TeleportActivationButton, out bool isActivated, activationThreshold);
         return isActivated;
     }
