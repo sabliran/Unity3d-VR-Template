@@ -760,6 +760,7 @@ GameObject:
   - component: {fileID: 793761527}
   - component: {fileID: 793761526}
   - component: {fileID: 793761528}
+  - component: {fileID: 793761529}
   m_Layer: 0
   m_Name: VR Rig
   m_TagString: Untagged
@@ -843,6 +844,26 @@ MonoBehaviour:
   rightTeleportRay: {fileID: 972458387}
   TeleportActivationButton: 2
   activationThreshold: 0.1
+--- !u!114 &793761529
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793761523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc4f2c0214c9b494fa7eb5b8b2c02885, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_System: {fileID: 0}
+  m_TurnUsage: 0
+  m_Controllers:
+  - {fileID: 633601313}
+  - {fileID: 454180263}
+  m_TurnAmount: 45
+  m_DebounceTime: 0.1
+  m_DeadZone: 0.75
 --- !u!1 &951490281
 GameObject:
   m_ObjectHideFlags: 0
