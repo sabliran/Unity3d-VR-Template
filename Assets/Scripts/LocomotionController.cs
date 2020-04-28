@@ -11,7 +11,7 @@ public class LocomotionController : MonoBehaviour
     public float activationThreshold = 0.1f;
 
 
-
+    //test
 
     void Update()
     {
